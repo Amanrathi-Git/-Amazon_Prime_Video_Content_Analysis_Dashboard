@@ -1,68 +1,58 @@
-#  Amazon Prime Video Content Analysis Dashboard
+# Prime Video Dashboard
 
-An interactive and visual deep-dive into the global content library of **Amazon Prime Video**, exploring patterns in genre, country of origin, ratings, content types, and trends over time.
-
-This dashboard is ideal for analysts, business intelligence professionals, and data enthusiasts looking to understand how streaming content is distributed across categories, countries, and decades.
+This repository contains the Tableau workbook file for the **Prime Video Dashboard** project. The dashboard provides an interactive visualization and analysis of Prime Video data to gain insights about movies, shows, ratings, and viewer engagement.
 
 ---
 
-## Dashboard Overview
+## Project Overview
 
-This Tableau dashboard provides comprehensive analytics on Amazon Prime Video shows and movies, enabling users to explore:
+The Prime Video Dashboard is designed to visualize key metrics and trends related to Prime Video content. It includes:
 
-###  Metadata Display
-- **Title**, **Genre**, **Type** (Movie / TV Show)
-- **Release Year**, **Duration**, **Cast**
-- **Brief Description** for selected content
+- Overview of content categories and genres
+- Viewer ratings distribution
+- Popular titles and their performance
+- Time-based trends for content releases and viewership
+- Interactive filters for dynamic exploration
 
-###  Geographical Insights
-- **Total Shows by Country**: A world map highlighting the number of shows/movies produced per country, with visible concentrations in the US, India, UK, and Canada.
-
-###  Type Distribution
-  - **Pie Chart** comparing proportions of:
-  -  **Movies** – 80.82%
-  -  **TV Shows** – 19.18%
-
-###  Time Trend Analysis
-- **Stacked Area Chart**: Visualizes show releases by **type and year** from 1920 to 2020, revealing streaming content growth over decades.
-
-###  Ratings Breakdown
-- Donut chart of **Top Ratings** including:
-  - `13+`, `16+`, `18+`, `PG`, `TV-14`, `R`, etc.
-
-###  Top Genres
-- Bar chart of **Top 10 Genres**:
-  - `Drama`, `Comedy`, `Drama & Suspense`, `Documentary`, `Action`, `Animation`, and more.
+This dashboard helps in understanding Prime Video’s content landscape and viewer preferences.
 
 ---
 
-##  Tools & Technologies
+## File Description
 
-| Tool        | Purpose                          |
-|-------------|----------------------------------|
-| **Tableau** | Data visualization & interactivity |
-| **Mapbox**  | Geographic mapping               |
-| **Python / Excel** (optional) | Data preprocessing (if performed manually) |
-
-> The dashboard was designed with storytelling, clarity, and interactivity in mind, ideal for stakeholders or public presentations.
+- `prime video dashboard.twb`: The Tableau workbook file containing the dashboard visualizations, worksheets, and data connections.
 
 ---
 
-##  Dataset Source
+## How to Use
 
-The underlying dataset includes:
-- Show titles
-- Genre & sub-genre classifications
-- Country of origin
-- Age ratings
-- Duration
-- Cast
-- Year of release
-- Type (Movie or TV Show)
-
-> *Dataset Source*: [Amazon Prime Video dataset on Kaggle or other public streaming datasets]*
+1. Download and install [Tableau Desktop] if you don't have it already.
+2. Open the `prime video dashboard.twb` file using Tableau Desktop.
+3. Explore the dashboard by interacting with the filters and visualizations.
+4. You can customize or enhance the dashboard as per your analysis needs.
 
 ---
 
-To run or view this dashboard:
+## Requirements
 
+- Tableau Desktop (recommended version 2020.4 or above)
+- Data source connection configured properly (if external data is used)
+
+---
+
+## Future Enhancements
+
+- Integration of additional datasets for deeper insights
+- Automated data refresh and live connection setup
+- Advanced analytics with calculated fields and parameters
+
+
+---
+
+## Contact
+
+Feel free to reach out for any questions or suggestions related to this project.
+
+---
+
+*Thank you for checking out the Prime Video Dashboard project!*
